@@ -1,0 +1,53 @@
+.games {
+    height: calc(100vh - 20rem);
+    overflow-y: auto;
+    margin: 0px;
+    padding: 10px;
+
+  }
+  
+  .col {
+    margin: 0 auto;
+    max-height: 40rem;
+    max-width: 18rem;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+    animation: alternate;
+    align-items: center;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .card-footer .badge{
+    margin: 0 .7rem;
+  }
+  
+  @media screen and (min-width: 576px) {
+    .games {
+      height: calc(100vh - 17rem);
+    }
+  
+    .col {
+      margin: 0;
+    }
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: animarImagen 5s infinite;
+    position: relative;
+  }
+  
